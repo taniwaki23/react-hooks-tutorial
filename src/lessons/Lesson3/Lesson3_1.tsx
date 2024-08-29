@@ -1,5 +1,12 @@
+import { useRef } from 'react';
+
 const Lesson3_1 = () => {
-  function handleClick() {}
+  const ref = useRef(0);
+
+  function handleClick() {
+    ref.current = ref.current + 1;
+    alert(ref.current);
+  }
 
   return (
     <div>

@@ -1,10 +1,10 @@
 import './App.css';
-import Lesson5_3 from './lessons/Lesson5/Lesson5_3/Lesson5_3';
+import Lesson7_2 from './lessons/Lesson7/Lesson7_2/Lesson7_2';
 
 function App() {
   return (
     <div className="flex items-center max-w-4xl mx-auto py-8 text-2xl">
-      <Lesson5_3 />
+      <Lesson7_2 />
     </div>
   );
 }
